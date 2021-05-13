@@ -23,12 +23,12 @@ nav {
   justify-content: space-between;
   padding-top: 2%;
 }
-h1 {
+.nav-logo {
   font-size: 2.5rem;
   margin-left: 15%;
   color: #8cabad;
 }
-a {
+.nav-link {
   font-size: 2rem;
   color: #91c7cc;
   margin-right: 15%;
@@ -47,20 +47,20 @@ a {
   transform: translate(-50%, -50%);
   /* color: white; */
 }
-h3 {
+.hero__title {
   color: #91c7cc;
   font-size: 1.8rem;
 }
-h2 {
+.hero__subtitle {
   font-size: 4rem;
   margin-top: 3%;
   color: #91c7cc;
 }
-p {
+.hero__text {
   margin-top: 4%;
   font-size: 1.2rem;
 }
-button {
+.hero__button {
   margin-top: 8%;
   background-color: #91c7cc;
   color: white;
@@ -72,4 +72,41 @@ button {
   padding-right: 0;
   border-radius: 15px;
   border: none;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.services__available-wrap {
+  width: 50%;
+  margin-left: 5%;
+}
+.services__available-wrap-top {
+  display: flex;
+  justify-content: left;
+  /* flex-wrap: wrap; */
+}
+.services__available-style-container {
+  margin-right: 10%;
+  width: 20%;
+}
+.services__available-wrap-bottom {
+  margin-top: 5%;
+  display: flex;
+  justify-content: left;
+}
+.services__timetable-wrap {
+  width: 20%;
+  height: 500px;
+  /* background-color: #91c7cc; */
+  background-color: rgb(196, 196, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__timetable-title {
+  color: black;
 }
