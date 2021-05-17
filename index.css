@@ -6,6 +6,7 @@
 body,
 html {
   height: 100%;
+  width: 100%;
 }
 header {
   background-image: url("./images/nurse.jpg");
@@ -144,7 +145,7 @@ nav {
 }
 .mission {
   display: flex;
-  width: 100%;
+  width: 90%;
   height: 850px;
   margin: 10% 10%;
 }
@@ -192,4 +193,40 @@ nav {
   letter-spacing: 2px;
   color: white;
   background-color: #9ad4da;
+}
+.contact {
+  display: flex;
+  width: 100%;
+}
+.contact__info-wrap {
+  width: 25%;
+  margin-left: 18%;
+  margin-right: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__image-wrap {
+  width: 45%;
+}
+.contact__image {
+  /* margin-left: 5%; */
+  width: 100%;
+}
+.contact__info-title {
+  font-size: 3.2rem;
+  margin-bottom: 5%;
+  color: #9ad4da;
+}
+.contact__info-text {
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+}
+.contact__info-statement {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.contact__info-number {
+  font-size: 2.5rem;
 }
