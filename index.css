@@ -86,11 +86,24 @@ nav {
 .services__available-wrap-top {
   display: flex;
   justify-content: left;
+  margin-top: 15%;
+  margin-bottom: 10%;
   /* flex-wrap: wrap; */
 }
 .services__available-style-container {
   margin-right: 10%;
   width: 20%;
+}
+.services__available-img {
+  height: 50px;
+  margin-bottom: 10%;
+}
+.services__available-title {
+  font-size: 1.7rem;
+  margin-bottom: 15%;
+}
+.services__available-text {
+  font-size: 1.2rem;
 }
 .services__available-wrap-bottom {
   margin-top: 5%;
@@ -100,13 +113,41 @@ nav {
 .services__timetable-wrap {
   width: 20%;
   height: 500px;
+  margin-top: 2%;
   /* background-color: #91c7cc; */
-  background-color: rgb(196, 196, 238);
+  background-color: #9ad4da;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .services__timetable-title {
-  color: black;
+  /* color: black; */
+  font-size: 2rem;
+  padding-left: 10%;
+  margin-bottom: 5%;
+  /* text-align: left; */
+}
+.services__timetable-subtitle {
+  font-size: 3rem;
+  padding-left: 10%;
+  margin-bottom: 5%;
+  /* text-align: left; */
+}
+.services__timetable-text {
+  font-size: 1.5rem;
+  padding-left: 10%;
+  margin-bottom: 10%;
+  width: 90%;
+}
+.services__timetable-button {
+  width: 50%;
+  height: 40px;
+  margin-left: 10%;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #9ad4da;
 }
