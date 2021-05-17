@@ -78,6 +78,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  /* height: auto; */
 }
 .services__available-wrap {
   width: 50%;
@@ -112,7 +113,7 @@ nav {
 }
 .services__timetable-wrap {
   width: 20%;
-  height: 500px;
+  height: 550px;
   margin-top: 2%;
   /* background-color: #91c7cc; */
   background-color: #9ad4da;
