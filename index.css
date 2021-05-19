@@ -230,3 +230,35 @@ nav {
 .contact__info-number {
   font-size: 2.5rem;
 }
+.team {
+  margin-top: 5%;
+}
+.team__title {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+.team__photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+.team__photo-container {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team__photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-bottom: 15%;
+}
+.team__photo-doctor {
+  font-size: 2rem;
+}
+.team__photo-doctor-position {
+  font-size: 1.3rem;
+  color: #5eb0b9;
+}
